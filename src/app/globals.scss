@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.formtools-container {
+    @apply flex justify-center flex-col mt-4;
+}
+
+.formtools-label {
+    @apply font-bold text-sm text-left;
+}
+
+.formtools-input {
+    @apply border-2 rounded-md p-1 w-full hover:border-cyan-500 focus:ring-2 ring-cyan-500 focus:ring-offset-2 outline-none transition-all mt-2;
+}
+
+.formtools-errors {
+    @apply text-rose-500 font-bold text-sm mt-2;
+}
+
+.submit-button {
+    @apply bg-cyan-500 text-white font-bold p-2 rounded-2xl mt-3 w-3/5 hover:bg-cyan-700 hover:scale-110 active:bg-cyan-800 active:scale-105 transition-all;
+}

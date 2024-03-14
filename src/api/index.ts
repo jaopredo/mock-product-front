@@ -1,8 +1,7 @@
 import axios from 'axios'
-import { config } from '@/config/config'
 
 const APIInstance = axios.create({
-    baseURL: config.API_URL
+    baseURL: process.env.NEXT_PUBLIC_API_URL
 })
 
 export default APIInstance

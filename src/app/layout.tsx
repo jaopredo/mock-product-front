@@ -17,8 +17,7 @@ export default function RootLayout({
     return (
         <html lang="pt-br">
             <body className={inter.className}>
-                <div className="bg-sky-100 flex items-center justify-center h-[100vh] flex-col">
-                    <h1 className="text-4xl text-cyan-700 mb-5">Saúde <span className="font-bold">Já!</span></h1>
+                <div className="bg-sky-100 flex items-center justify-center min-h-[100vh] flex-col p-4">
                     {children}
                 </div>
             </body>

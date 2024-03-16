@@ -68,7 +68,7 @@ export default function Home() {
                                 <select className='formtools-input' id="time-wait" {...methods?.register('preference', {
                                     required: true,
                                     onChange: (e) => {
-                                        setShowConvene(e.target.value == 'convene')
+                                        setShowConvene(e.target.value == 'Convenio')
                                     }
                                 })}>
                                     <option value="Privado">Privado</option>
